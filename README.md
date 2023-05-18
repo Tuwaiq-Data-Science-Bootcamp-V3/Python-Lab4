@@ -6,3 +6,9 @@
 3 2 1   
 2 1   
 1   
+--------------------------------------------------------------------
+InteredNumber = int(input('Please Enter a number:  '))
+for i in range(0, InteredNumber+1 ):
+    for j in range(InteredNumber - i, 0, -1):
+        print(j , end=' ')
+    print('')
